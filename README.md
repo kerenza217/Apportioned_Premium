@@ -19,6 +19,6 @@ Key Impact:
 Data Ingestion: Loads PREMIUM.xlsx and cleans column headers.
 Date Normalization: Converts start/end strings into Python datetime objects.
 Daily Rate Calculation:
-  $$\text{Daily Rate} = \frac{\text{Total Premium}}{\text{Total Days in Policy Period}}
+      Daily Rate = {Total Premium \ Total Days in Policy Period
   
-$$Overlap Logic: For every month in the timeline (Start Date to Dec 2026), the script identifies if the policy was active and calculates the specific number of days of coverage in that month.Output: Generates a new Excel file, Apportioned_Premium1.xlsx, featuring the original data plus new columns for every month
+Overlap Logic: For every month in the timeline (Start Date to Dec 2026), the script identifies if the policy was active and calculates the specific number of days of coverage in that month.Output: Generates a new Excel file, Apportioned_Premium1.xlsx, featuring the original data plus new columns for every month
